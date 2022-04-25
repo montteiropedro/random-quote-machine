@@ -1,0 +1,33 @@
+#text-author-section {
+  display: flex;
+  flex-direction: column;
+  /* align-items: center; */
+
+}
+
+#text {
+  font-size: 1.5rem;
+  align-self: center;
+  text-align: center;
+}
+
+#text i {
+  margin-right: 0.5rem;
+}
+
+#author {
+  padding-top: 1.25rem;
+  width: 100%;
+
+  display: flex;
+  justify-content: flex-end;
+
+  font-style: italic;
+}
+
+#buttons {
+  padding-top: 30px;
+
+  display: flex;
+  justify-content: space-between;
+}
