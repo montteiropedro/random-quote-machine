@@ -12,7 +12,7 @@ class QuoteBox extends React.Component {
     super(props);
     this.state = {
       quote: "",
-      author: "Kanye West",
+      author: "",
       color: "",
     };
 
