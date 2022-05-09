@@ -21,5 +21,24 @@ body {
   margin: auto;
   padding: 3rem;
 
-  width: 600px;
+  max-width: 600px;
 }
+
+/* ============================== MEDIA QUERIES ============================== */
+
+/* Mobile Devices (320px - 480px) */
+
+@media only screen and (max-width: 480px) {
+  #quote-box {
+    margin: auto;
+    padding: 3rem 1rem;
+  
+    width: 100%;
+  }
+}
+
+/* iPads and Tablets (481px - 768px) */
+
+/* Laptops (769px - 1279px) */
+
+/* Desktop and TVs (1280px & above) */
